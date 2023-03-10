@@ -49,3 +49,14 @@ key
 ```python
 description
 ```
+
+
+***Part2***
+If you want the whole line set your code to this:
+```python
+from nsdb import LoadData
+
+query = LoadData("datakey", only_description=False) # on default only_description is set to True
+```
+***Part3***
+Lets expand our code for P1 adding a delete option...
