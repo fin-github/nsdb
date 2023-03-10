@@ -12,3 +12,19 @@ So easy you dont even have to learn it....
 
 ## Examples
 ### Basics
+##### GetData/SaveData
+**DEMO.PY** = 
+```python
+from nsdb import getdata, SaveData
+
+SaveData("key", "desc", file="testdb.txt")
+print(getdata(file="testdb.txt"))
+```
+**testdb.txt** =
+```txt
+key:desc
+```
+**OUTPUT** = 
+```python
+{"key": "desc"}
+```
