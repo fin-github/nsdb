@@ -28,3 +28,16 @@ key:desc
 ```python
 {"key": "desc"}
 ```
+If you dont get it getdata will get ***EVERY*** key and description from the file. But if you want to get a specific data you can use LoadData
+##### LoadData/DeleteData
+Lets say you want to load whatever the user says... Example:
+**DEMO.PY** = 
+```python
+from nsdb import DeleteData, LoadData
+
+query = input("What data do you want to load?\n")
+
+output = LoadData(datakey=query, file="testdb.txt")
+
+print(output)
+```
