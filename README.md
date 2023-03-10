@@ -41,3 +41,11 @@ output = LoadData(datakey=query, file="testdb.txt")
 
 print(output)
 ```
+**INPUT** = 
+```python
+key
+```
+**OUTPUT** = 
+```python
+description
+```
