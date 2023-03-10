@@ -8,3 +8,7 @@ So easy you dont even have to learn it....
 - DeleteData *datakey, file="db.txt"*
 - datacontains *datakey, file="db.txt"*
 - replacedata *datakey, replacmentkey, replacmentdescription, file="db.txt"*
+- getdata *leavekey=None, leavedescription=None, file="db.txt"*
+
+## Examples
+### Basics
